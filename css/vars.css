@@ -15,10 +15,20 @@
     --Dark-Orange: #fc8c04;
         --header-blog: #fc8c04;
 
-    --Davys-Gray:  #5c5c5c;     
+    --Dark-Cornflower-Blue:  #043c94;
+        --header-linkedin:  #043c94;
+
+    --Davys-Gray:  #5c5c5c;
         --header-email:  #5c5c5c;
 
+    --Homely-Red:  #fc0404;
+        --footer-home:  #fc0404;
 
+    --Mahogany:  #b44c04;
+        --footer-privacy:  #b44c04;
+
+    --Dark-Pastel-Green:  #04c43c;
+        --footer-copyright:  #04c43c;
 
 
     --Orange-Simpson:  #ff7701;     /* Signature colour: links. */

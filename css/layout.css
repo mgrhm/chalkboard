@@ -19,6 +19,8 @@ header {
     font-variant-ligatures: none;
     align-items: center;                       /* Vertical alignment. */
     border-bottom: 3px solid var(--Dark-Orange);
+    padding-top: 10px;
+    text-align: center;
 }
 
     header a {
@@ -75,6 +77,18 @@ header {
             text-decoration: none;
         }
 
+    header a.header-linkedin {
+        color: var(--Dark-Cornflower-Blue);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        header a.header-linkedin:hover {
+            color: var(--Isabelline);
+            background: var(--Dark-Cornflower-Blue);
+            border-bottom: 3px solid var(--Dark-Cornflower-Blue);
+            text-decoration: none;
+        }
+
     header a.header-email {
         color: var(--Davys-Gray);
         border-bottom: none;
@@ -123,3 +137,88 @@ p + p {
     text-indent: 28pt;
     margin-top: -10pt;
 }
+
+
+
+
+
+footer {
+    font-family: "sitelen-pona-pona",
+                  sans-serif;
+    font-size:    18pt;
+    font-weight: bold;
+    font-variant-ligatures: none;
+    text-align: center;
+    align-items: center;                       /* Vertical alignment. */
+    border-top: 3px solid var(--Dark-Orange);
+    padding-top: 10px;
+    border-bottom: 3px solid var(--Dark-Orange);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+    footer a {
+    /*  This ensures that *all* links in the footer bar have clearance
+     *  on the right to space out the icons and links.
+     */
+        margin-right: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: none;
+        text-decoration: none;
+    }
+        footer a:hover {
+            padding-top: 20px;
+        }
+
+        footer a:hover img {
+            filter: invert(100%) !important;
+        }
+
+
+    footer a.footer-name {
+        color: var(--Dark-Orange);
+    }
+        footer a.footer-name:hover {
+            padding-top: 20px;
+            color: var(--Isabelline);
+            background: var(--Dark-Orange);
+            border-bottom: 3px solid var(--Dark-Orange);
+            text-decoration: none;
+        }
+
+    footer a.footer-home {
+        color: var(--Homely-Red);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        footer a.footer-home:hover {
+            color: var(--Isabelline);
+            background: var(--Homely-Red);
+            border-bottom: 3px solid var(--Homely-Red);
+            text-decoration: none;
+        }
+
+    footer a.footer-privacy {
+        color: var(--Mahogany);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        footer a.footer-privacy:hover {
+            color: var(--Isabelline);
+            background: var(--Mahogany);
+            border-bottom: 3px solid var(--Mahogany);
+            text-decoration: none;
+        }
+
+    footer a.footer-copyright {
+        color: var(--Dark-Pastel-Green);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        footer a.footer-copyright:hover {
+            color: var(--Isabelline);
+            background: var(--Dark-Pastel-Green);
+            border-bottom: 3px solid var(--Dark-Pastel-Green);
+            text-decoration: none;
+        }

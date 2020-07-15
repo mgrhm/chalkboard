@@ -30,8 +30,7 @@ a {
 header {
     font-family: "sitelen-pona-pona",
                   sans-serif;
-    font-size:    24pt;
-    font-weight: bold;
+    font-size:    18pt;
     font-variant-ligatures: none;
     align-items: center;                       /* Vertical alignment. */
     border-bottom: 3px solid var(--Dark-Orange);
@@ -60,6 +59,7 @@ header {
 
     header a.header-name {
         color: var(--Dark-Orange);
+        font-size: 24pt;
     }
         header a.header-name:hover {
             padding-top: 20px;

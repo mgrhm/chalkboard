@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'sitelen-pona-pona';
+    font-style:   normal;
+    font-weight:  normal;
+    font-display: swap;
+             src: url('./fonts/spp.woff2') format('woff2'),
+                  url('./fonts/spp.woff')  format('woff'),
+                  url('./fonts/spp.ttf')   format('truetype'),
+                  url('./fonts/spp.eot')   format('embedded-opentype');
+}

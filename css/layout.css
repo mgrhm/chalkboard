@@ -1,0 +1,89 @@
+html {
+    color: var(--Onyx);
+    background: var(--Isabelline);
+    margin-top:    0;
+    margin-bottom: 0;
+}
+    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+        html {
+            background: var(--Onyx);
+            color: var(--Misty-Rose);
+            }
+        }
+
+header {
+    font-family: "sitelen-pona-pona",
+                  sans-serif;
+    font-size:    24pt;
+    font-weight: bold;
+    font-variant-ligatures: none;
+    align-items: center;                       /* Vertical alignment. */
+    border-bottom: 3px solid var(--Dark-Orange);
+}
+
+    header a {
+    /*  This ensures that *all* links in the header bar have clearance 
+     *  on the right to space out the icons and links.
+     */
+        margin-right: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-bottom: none;
+        text-decoration: none;
+    }
+        header a:hover {
+            padding-top: 20px;
+        }
+
+        header a:hover img {
+            filter: invert(100%) !important;
+        }
+
+
+    header a.header-name {
+        color: var(--Dark-Orange);
+    }
+        header a.header-name:hover {
+            padding-top: 20px;
+            color: var(--Isabelline);
+            background: var(--Dark-Orange);
+            border-bottom: 3px solid var(--Dark-Orange);
+            text-decoration: none;
+        }
+
+    header a.header-about {
+        color: var(--Iain-Blue-Simpson);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        header a.header-about:hover {
+            color: var(--Isabelline);
+            background: var(--Iain-Blue-Simpson);
+            border-bottom: 3px solid var(--Iain-Blue-Simpson);
+            text-decoration: none;
+        }
+
+    header a.header-blog {
+        color: var(--Dark-Orange);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        header a.header-blog:hover {
+            color: var(--Isabelline);
+            background: var(--Dark-Orange);
+            border-bottom: 3px solid var(--Dark-Orange);
+            text-decoration: none;
+        }
+
+    header a.header-email {
+        color: var(--Davys-Gray);
+        border-bottom: none;
+        text-decoration: none;
+    }
+        header a.header-email:hover {
+            color: var(--Isabelline);
+            background: var(--Davys-Gray);
+            border-bottom: 3px solid var(--Davys-Gray);
+            text-decoration: none;
+        }
+

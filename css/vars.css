@@ -1,0 +1,40 @@
+:root {
+/*  Setting colour scheme variables for use in the CSS file.  Easier to
+ *  call these by name using 'var(--Orange-Simpson)' than to remember
+ *  all the colour hex codes and try to decipher them while working on
+ *  the CSS file itself.  It also means we can update entire colours
+ *  with a few changes here.
+ */
+
+
+
+
+    --Iain-Blue-Simpson: #0404fc;
+        --header-about: #0404fc;
+
+    --Dark-Orange: #fc8c04;
+        --header-blog: #fc8c04;
+
+    --Davys-Gray:  #5c5c5c;     
+        --header-email:  #5c5c5c;
+
+
+
+
+    --Orange-Simpson:  #ff7701;     /* Signature colour: links. */
+        --links:       #ff7701;
+    --Onyx:            #313533;     /* Light mode text; dark mode BG. */
+        --light-text:  #313533;
+        --dark-bg:     #313533;
+    --Isabelline:      #fef9f5;     /* Light mode background. */
+        --light-bg:    #fef9f5;
+    --Misty-Rose:      #f9e0d9;     /* Dark mode text; some BGs. */
+        --dark-text:   #f9e0d9;
+    --Minion-Yellow:   #ffe74c;     /* :active state for links. */
+        --link-active: #ffe74c;
+    --Heliotrope-Gray: #9a8f97;     /* Backgrounds and borders. */
+        --border:      #9a8f97;
+        --grey-bg:     #9a8f97;
+    --Melon:           #ffa69e;     /* Text highlight colour. */
+        --highlight:   #ffa69e;
+}

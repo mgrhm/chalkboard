@@ -87,3 +87,39 @@ header {
             text-decoration: none;
         }
 
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Helvetica",
+                 sans-serif;
+    font-size: 14pt;
+    line-height: 150%;
+}
+
+
+h2 {
+    font-family: "sitelen-pona-pona",
+                  sans-serif;
+    font-size:    24pt;
+    font-weight: bold;
+    font-variant-ligatures: none;
+}
+
+
+p.post-tags {
+    font-family: "sitelen-pona-pona",
+                  sans-serif;
+    font-size:    16pt;
+    font-variant-ligatures: none;
+}
+
+a.post-tags-link {
+    font-family: "sitelen-pona-pona",
+                  sans-serif;
+    font-feature-settings: "liga" 1;
+}
+
+p + p {
+    text-indent: 28pt;
+    margin-top: -10pt;
+}

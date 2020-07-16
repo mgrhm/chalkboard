@@ -78,27 +78,36 @@ header {
                  "Century Gothic",
                   sans-serif;
     font-size:    18pt;
+/*  When using Sitelen Pona Pona, ligatures need to be disabled or the
+ *  text appears inside a chevron.  This is used to deliberate effect
+ *  for the post tags. */
     font-variant-ligatures: none;
-    align-items: center;                       /* Vertical alignment. */
+    background: var(--Isabelline);
     border-bottom: 3px solid var(--Dark-Orange);
-    padding-top: 10px;
-    text-align: center;
+    /*  This code is from Caramelised, and is used to pin the site header to
+     *  the top of the page when scrolling. */
+        width: 100% !important;
+        position: fixed;
+        z-index:  10;
+        display:  flex;
+        align-items: center;                   /* Vertical alignment. */
+        justify-content: center;             /* Horizontal alignment. */
+        flex-wrap: wrap;
 }
 
     header a {
     /*  This ensures that *all* links in the header bar have clearance
      *  on the right to space out the icons and links.
      */
-        margin-right: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-        border-bottom: none;
+        margin-right:   20px;
+        padding-left:    5px;
+        padding-top:    15px;
+        padding-bottom: 10px;
+        padding-right:  10px;
+        padding-left:   10px;
+        border-bottom:   none;
         text-decoration: none;
     }
-        header a:hover {
-            padding-top: 20px;
-        }
-
         header a:hover img {
             filter: invert(100%) !important;
         }
@@ -108,11 +117,8 @@ header {
         font-size: 24pt;
     }
         header a.header-name:hover {
-            padding-top: 20px;
             color: var(--Isabelline);
             background: var(--Dark-Orange);
-            border-bottom: 3px solid var(--Dark-Orange);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-name {
@@ -229,6 +235,7 @@ main {
     font-size:     14pt;
     line-height:  160%;
     margin-bottom: 40px;
+    padding-top: 80px;
 }
 
 
@@ -311,10 +318,12 @@ footer {
     /*  This ensures that *all* links in the footer bar have clearance
      *  on the right to space out the icons and links.
      */
-        margin-right: 20px;
-        padding-left: 5px;
-        padding-right: 5px;
-        border-bottom: none;
+        margin-right:   20px;
+        padding-left:    5px;
+        padding-top:    15px;
+        padding-bottom: 10px;
+        padding-right:  10px;
+        padding-left:   10px;
         text-decoration: none;
     }
         footer a:hover {
@@ -325,17 +334,6 @@ footer {
             filter: invert(100%) !important;
         }
 
-    footer a.footer-name {
-        color: var(--Dark-Orange);
-    }
-        footer a.footer-name:hover {
-            padding-top: 20px;
-            color: var(--Isabelline);
-            background: var(--Dark-Orange);
-            border-bottom: 3px solid var(--Dark-Orange);
-            text-decoration: none;
-        }
-
     footer a.footer-home {
         color: var(--Homely-Red);
         border-bottom: none;
@@ -344,7 +342,6 @@ footer {
         footer a.footer-home:hover {
             color: var(--Isabelline);
             background: var(--Homely-Red);
-            border-bottom: 3px solid var(--Homely-Red);
             text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
@@ -364,7 +361,6 @@ footer {
         footer a.footer-privacy:hover {
             color: var(--Isabelline);
             background: var(--Mahogany);
-            border-bottom: 3px solid var(--Mahogany);
             text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
@@ -384,7 +380,6 @@ footer {
         footer a.footer-copyright:hover {
             color: var(--Isabelline);
             background: var(--Dark-Pastel-Green);
-            border-bottom: 3px solid var(--Dark-Pastel-Green);
             text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {

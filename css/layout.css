@@ -98,6 +98,10 @@ header {
         justify-content: center;             /* Horizontal alignment. */
         flex-wrap: wrap;
 }
+    @media (prefers-color-scheme: dark) {
+        header {
+            background: var(--Onyx);
+        }
 
     header a {
     /*  This ensures that *all* links in the header bar have clearance

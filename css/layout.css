@@ -1,10 +1,37 @@
+/*
+ *  ,ggggggggggg,         ,gggg,         ,ggg,       ,gggg,   ,ggg,        gg
+ * dP"""88""""""Y8,      d8" "8I        dP""8I     ,88"""Y8b, ""Y8b       dP
+ * Yb,  88      `8b      88  ,dP       dP   88    d8"     `Y8.  `88      d8'
+ *  `"  88      ,8P   8888888P"       dP    88   d8'   8b  d8    88    ,dP'
+ *      88aaaad8P"       88          ,8'    88  ,8I    "Y88P'    88aaad8"
+ *      88""""Y8ba       88          d88888888  I8'              88""""Yb,
+ *      88      `8b     .88         ,8"     88  d8               88     "8b
+ *      88      ,8Pd    88P        ,8P      Y8  Y8,              88      `8i
+ *      88_____,d8'Yb,_,d88b,,_  _,dP       `8b,`Yba,,_____,     88       Yb,
+ *     88888888P"   "Y8P"  "Y888Y8P"         `Y8  `"Y8888888     88        Y8
+ *
+ *  ,ggggggggggg,      _,ggggg,_           ,ggg, ,ggggggggg,  ,gggggggggg.
+ * dP"""88""""""Y8,  ,d8P"d8P"Y8b,        dP""8I ""88""""""Y8,""88""""""Y8b,
+ * Yb,  88      `8b ,d8'  Y8   "8b,dP    dP   88   88      `8b  88       `8b,
+ *  `"  88      ,8P d8'   `Ybaaad88P'   dP    88   88      ,8P  88        `8b
+ *      88aaaad8P"  8P      `""""Y8    ,8'    88   88aaaad8P"   88         Y8
+ *      88""""Y8ba  8b           d8    d88888888   88""""Yb,    88         d8
+ *      88      `8b Y8,         ,8P   ,8"     88   88     "8b   88        ,8P
+ *      88      ,8P `Y8,       ,8P'  ,8P      Y8   88      `8i  88       ,8P'
+ *      88_____,d8'  `Y8b,__,,d8Pb,_,dP       `8b, 88       Yb, 88______,dP'
+ *     88888888P"      `"Y888P"' "Y8P"         `Y888'        Y8888888888P"
+ *
+ *               A Hugo theme built for and with Iain B. Simpson:
+ *                  designed to be fast, simple, and beautiful.
+ */
+
 html {
     color: var(--Onyx);
     background: var(--Isabelline);
     margin-top:    0;
     margin-bottom: 0;
 }
-    @media (prefers-color-scheme: dark) {      /* Code for Dark Mode. */
+    @media (prefers-color-scheme: dark) {
         html {
             background: var(--Onyx);
             color: var(--Misty-Rose);
@@ -35,6 +62,15 @@ a {
     }
 
 
+/*
+ *          ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗
+ *          ██║  ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗
+ *          ███████║█████╗  ███████║██║  ██║█████╗  ██████╔╝
+ *          ██╔══██║██╔══╝  ██╔══██║██║  ██║██╔══╝  ██╔══██╗
+ *          ██║  ██║███████╗██║  ██║██████╔╝███████╗██║  ██║
+ *          ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝
+ */
+
 header {
     font-family: "sitelen-pona-pona",
                  "Futura",
@@ -50,7 +86,7 @@ header {
 }
 
     header a {
-    /*  This ensures that *all* links in the header bar have clearance 
+    /*  This ensures that *all* links in the header bar have clearance
      *  on the right to space out the icons and links.
      */
         margin-right: 20px;
@@ -67,7 +103,6 @@ header {
             filter: invert(100%) !important;
         }
 
-
     header a.header-name {
         color: var(--Dark-Orange);
         font-size: 24pt;
@@ -79,6 +114,14 @@ header {
             border-bottom: 3px solid var(--Dark-Orange);
             text-decoration: none;
         }
+            @media (prefers-color-scheme: dark) {
+                header a.header-name {
+                    filter: invert(100%) !important;
+                }
+                    header a.header-name:hover {
+                        filter: invert(100%) !important;
+                    }
+            }
 
     header a.header-about {
         color: var(--Iain-Blue-Simpson);
@@ -161,7 +204,14 @@ header {
             }
 
 
-
+/*
+ * ███╗   ███╗ █████╗ ██╗███╗   ██╗    ██████╗  ██████╗ ██████╗ ██╗   ██╗
+ * ████╗ ████║██╔══██╗██║████╗  ██║    ██╔══██╗██╔═══██╗██╔══██╗╚██╗ ██╔╝
+ * ██╔████╔██║███████║██║██╔██╗ ██║    ██████╔╝██║   ██║██║  ██║ ╚████╔╝
+ * ██║╚██╔╝██║██╔══██║██║██║╚██╗██║    ██╔══██╗██║   ██║██║  ██║  ╚██╔╝
+ * ██║ ╚═╝ ██║██║  ██║██║██║ ╚████║    ██████╔╝╚██████╔╝██████╔╝   ██║
+ * ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚═════╝  ╚═════╝ ╚═════╝    ╚═╝
+ */
 
 main {
     margin-left:   50px;
@@ -223,8 +273,14 @@ p + p {
 }
 
 
-
-
+/*
+ *        ███████╗ ██████╗  ██████╗ ████████╗███████╗██████╗
+ *        ██╔════╝██╔═══██╗██╔═══██╗╚══██╔══╝██╔════╝██╔══██╗
+ *        █████╗  ██║   ██║██║   ██║   ██║   █████╗  ██████╔╝
+ *        ██╔══╝  ██║   ██║██║   ██║   ██║   ██╔══╝  ██╔══██╗
+ *        ██║     ╚██████╔╝╚██████╔╝   ██║   ███████╗██║  ██║
+ *        ╚═╝      ╚═════╝  ╚═════╝    ╚═╝   ╚══════╝╚═╝  ╚═╝
+ */
 
 footer {
     font-family: "sitelen-pona-pona",
@@ -261,7 +317,6 @@ footer {
         footer a:hover img {
             filter: invert(100%) !important;
         }
-
 
     footer a.footer-name {
         color: var(--Dark-Orange);

@@ -101,6 +101,7 @@ header {
         header {
             background: var(--Onyx);
         }
+    }
 
     header a {
     /*  This ensures that *all* links in the header bar have clearance
@@ -276,6 +277,19 @@ p + p {
     text-indent: 28pt;
     margin-top: -10pt;
 }
+
+blockquote {
+    font-style:    italic;
+    padding-left:  24pt;
+    padding-right: 24pt;
+    border-left: 12px solid var(--Dark-Orange);
+}
+    blockquote em {
+    /*  This code makes <em>phasised text within a blockquote appear
+     *  as roman, since the main body of the quote is italic.
+     */
+        font-style: normal;
+    }
 
 
 /*

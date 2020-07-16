@@ -16,6 +16,7 @@ a {
     text-decoration: none;
     border-bottom: 3px solid var(--Dark-Orange);
     font-weight: bold;
+    padding-right: 1px;
 }
 
     a:hover {
@@ -132,7 +133,7 @@ h2 {
     font-family: "sitelen-pona-pona",
                   sans-serif;
     font-size:    24pt;
-    font-weight: bold;
+    font-weight:  bold;
     font-variant-ligatures: none;
 }
 
@@ -145,8 +146,8 @@ p.post-tags {
 }
 
 a.post-tags-link {
-    font-family: "sitelen-pona-pona",
-                  sans-serif;
+    font-family:  "sitelen-pona-pona",
+                   sans-serif;
     font-feature-settings: "liga" 1;
     color: var(--Iain-Blue-Simpson);
     border-bottom: none;
@@ -171,7 +172,7 @@ footer {
     font-family: "sitelen-pona-pona",
                   sans-serif;
     font-size:    18pt;
-    font-weight: bold;
+    font-weight:  bold;
     font-variant-ligatures: none;
     text-align: center;
     align-items: center;                       /* Vertical alignment. */

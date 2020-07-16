@@ -121,6 +121,13 @@ header {
                     header a.header-name:hover {
                         filter: invert(100%) !important;
                     }
+                    header a.header-name:hover img {
+                    /*  This code fixes the face emoji to stop it from
+                     *  inverting to a blue against a blue background.
+                     *  It now stays yellow on hover.
+                     */
+                        filter: none !important;
+                    }
             }
 
     header a.header-about {

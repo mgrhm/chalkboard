@@ -145,14 +145,10 @@ header {
 
     header a.header-about {
         color: var(--Iain-Blue-Simpson);
-        border-bottom: none;
-        text-decoration: none;
     }
         header a.header-about:hover {
             color: var(--Isabelline);
             background: var(--Iain-Blue-Simpson);
-            border-bottom: 3px solid var(--Iain-Blue-Simpson);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-about {
@@ -165,14 +161,10 @@ header {
 
     header a.header-blog {
         color: var(--Dark-Orange);
-        border-bottom: none;
-        text-decoration: none;
     }
         header a.header-blog:hover {
             color: var(--Isabelline);
             background: var(--Dark-Orange);
-            border-bottom: 3px solid var(--Dark-Orange);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-blog {
@@ -185,14 +177,10 @@ header {
 
     header a.header-linkedin {
         color: var(--Dark-Cornflower-Blue);
-        border-bottom: none;
-        text-decoration: none;
     }
         header a.header-linkedin:hover {
             color: var(--Isabelline);
             background: var(--Dark-Cornflower-Blue);
-            border-bottom: 3px solid var(--Dark-Cornflower-Blue);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-linkedin {
@@ -205,14 +193,10 @@ header {
 
     header a.header-email {
         color: var(--Davys-Gray);
-        border-bottom: none;
-        text-decoration: none;
     }
         header a.header-email:hover {
             color: var(--Isabelline);
             background: var(--Davys-Gray);
-            border-bottom: 3px solid var(--Davys-Gray);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-email {
@@ -330,6 +314,7 @@ footer {
         padding-bottom: 10px;
         padding-right:  10px;
         padding-left:   10px;
+        border-bottom:   none;
         text-decoration: none;
     }
         footer a:hover {
@@ -342,13 +327,10 @@ footer {
 
     footer a.footer-home {
         color: var(--Homely-Red);
-        border-bottom: none;
-        text-decoration: none;
     }
         footer a.footer-home:hover {
             color: var(--Isabelline);
             background: var(--Homely-Red);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-home {
@@ -361,13 +343,10 @@ footer {
 
     footer a.footer-privacy {
         color: var(--Mahogany);
-        border-bottom: none;
-        text-decoration: none;
     }
         footer a.footer-privacy:hover {
             color: var(--Isabelline);
             background: var(--Mahogany);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-privacy {
@@ -380,13 +359,10 @@ footer {
 
     footer a.footer-copyright {
         color: var(--Dark-Pastel-Green);
-        border-bottom: none;
-        text-decoration: none;
     }
         footer a.footer-copyright:hover {
             color: var(--Isabelline);
             background: var(--Dark-Pastel-Green);
-            text-decoration: none;
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-copyright {

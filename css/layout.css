@@ -23,10 +23,6 @@ a {
         color: var(--Dark-Orange);
     }
 
-    a.affiliate-link::after {
-        content: url(dollars-small.png);
-    }
-
 
 header {
     font-family: "sitelen-pona-pona",

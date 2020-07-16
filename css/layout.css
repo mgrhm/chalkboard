@@ -38,6 +38,10 @@ html {
             }
         }
 
+body {
+    margin: 0;
+}
+
 a {
     color: var(--Iain-Blue-Simpson);
     text-decoration: none;

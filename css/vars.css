@@ -6,42 +6,37 @@
  *  with a few changes here.
  */
 
-    --Iain-Blue-Simpson: #0404fc;
-        --header-about:  #0404fc;
-        --link-colour:   #0404fc;
+/*  "Onyx" is the body text colour in Day Mode, and the background
+ *   colour in Night Mode; it's borrowed from Pickled.  */
+    --Onyx:                 #313533;
+
+    --Isabelline:           #fef9f5;     /* Light mode background. */
+
+    --Misty-Rose:           #f9e0d9;     /* Dark mode text; some BGs. */
+
 
 /*  "Orange B. Simpson" is the colour of the blog emoji (/icons/blog.png)
- *  and is used for link underline and hover, and other colourful and
- *  emphasis elements. */
-    --Orange-B-Simpson: #fc8c04;
-        --header-blog: #fc8c04;
-        --link-underline: #fc8c04;
+ *   and is used for link underline and hover, and other colourful and
+ *   emphasis elements. */
+    --Orange-B-Simpson:     #fc8c04;
 
-    --Dark-Cornflower-Blue:  #043c94;
-        --header-linkedin:  #043c94;
-
-    --Davys-Gray:  #5c5c5c;
-        --header-email:  #5c5c5c;
-
-/*  "Homely Red" is the colour of the home emoji (/icons/home.png). */
-    --Homely-Red:  #fc0404;
-        --footer-home:  #fc0404;
-
-    --Mahogany:  #b44c04;
-        --footer-privacy:  #b44c04;
-
-    --Dark-Pastel-Green:  #04c43c;
-        --footer-copyright:  #04c43c;
+    --Iain-Blue-Simpson:    #0404fc;
 
 /*  "Yellow Head" is the colour of the Iain emoji (/icons/iain.png) when
- *  it's inverted during hover and Dark Mode.  */
-    --Yellow-Head:     #fcef34;
+ *   it's inverted during hover and Dark Mode.  */
+    --Yellow-Head:          #fcef34;
 
-    --Onyx:            #313533;     /* Light mode text; dark mode BG. */
-        --light-text:  #313533;
-        --dark-bg:     #313533;
-    --Isabelline:      #fef9f5;     /* Light mode background. */
-        --light-bg:    #fef9f5;
-    --Misty-Rose:      #f9e0d9;     /* Dark mode text; some BGs. */
-        --dark-text:   #f9e0d9;
+/*  "Double Windsor" is the colour of the Tie emoji (/icons/tie.png)
+ *   which is used for the LinkedIn header link.  */
+    --Double-Windsor: #043c94;
+
+    --Davys-Gray:           #5c5c5c;
+
+/*  "Homely Red" is the colour of the Home emoji (/icons/home.png). */
+    --Homely-Red:           #fc0404;
+
+    --Mahogany:             #b44c04;
+
+    --Dark-Pastel-Green:    #04c43c;
+
 }

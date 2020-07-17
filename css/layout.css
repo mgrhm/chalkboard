@@ -182,11 +182,11 @@ header {
             }
 
     header a.header-linkedin {
-        color: var(--Dark-Cornflower-Blue);
+        color: var(--Double-Windsor);
     }
         header a.header-linkedin:hover {
             color: var(--Isabelline);
-            background: var(--Dark-Cornflower-Blue);
+            background: var(--Double-Windsor);
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-linkedin {

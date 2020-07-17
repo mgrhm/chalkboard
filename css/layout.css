@@ -309,7 +309,11 @@ blockquote {
 ::selection {
     background: var(--Yellow-Head);
 }
-
+    @media (prefers-color-scheme: dark) {
+        ::selection {
+            background: var(--Iain-Blue-Simpson);
+        }
+    }
 
 
 /*

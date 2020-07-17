@@ -65,10 +65,6 @@ a {
         background: var(--Yellow-Head);
     }
 
-    a.affiliate-link::after {
-        content: url(dollars-small.png);
-    }
-
 
 /*
  *          ██╗  ██╗███████╗ █████╗ ██████╗ ███████╗██████╗

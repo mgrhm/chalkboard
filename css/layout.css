@@ -45,12 +45,12 @@ body {
 a {
     color: var(--Iain-Blue-Simpson);
     text-decoration: none;
-    border-bottom: 3px solid var(--Dark-Orange);
+    border-bottom: 3px solid var(--Orange-B-Simpson);
     font-weight: 600;
     padding-right: 1px;
 }
     a:hover {
-        color: var(--Dark-Orange);
+        color: var(--Orange-B-Simpson);
     }
             @media (prefers-color-scheme: dark) {
                 main a {
@@ -60,6 +60,10 @@ a {
                         filter: invert(100%) !important;
                     }
             }
+
+    a:active {
+        background: var(--Yellow-Head);
+    }
 
     a.affiliate-link::after {
         content: url(dollars-small.png);
@@ -86,7 +90,7 @@ header {
  *  for the post tags. */
     font-variant-ligatures: none;
     background: var(--Isabelline);
-    border-bottom: 3px solid var(--Dark-Orange);
+    border-bottom: 3px solid var(--Orange-B-Simpson);
     /*  This code is from Caramelised, and is used to pin the site header to
      *  the top of the page when scrolling. */
         width: 100% !important;
@@ -122,12 +126,12 @@ header {
         }
 
     header a.header-name {
-        color: var(--Dark-Orange);
+        color: var(--Orange-B-Simpson);
         font-size: 24pt;
     }
         header a.header-name:hover {
             color: var(--Isabelline);
-            background: var(--Dark-Orange);
+            background: var(--Orange-B-Simpson);
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-name {
@@ -162,11 +166,11 @@ header {
             }
 
     header a.header-blog {
-        color: var(--Dark-Orange);
+        color: var(--Orange-B-Simpson);
     }
         header a.header-blog:hover {
             color: var(--Isabelline);
-            background: var(--Dark-Orange);
+            background: var(--Orange-B-Simpson);
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-blog {
@@ -271,7 +275,7 @@ a.post-tags-link {
                      "Century Gothic",
                       sans-serif;
         font-feature-settings: "liga" 1;
-        color: var(--Dark-Orange);
+        color: var(--Orange-B-Simpson);
 }
 
 p + p {
@@ -283,7 +287,8 @@ blockquote {
     font-style:    italic;
     padding-left:  24pt;
     padding-right: 24pt;
-    border-left: 12px solid var(--Dark-Orange);
+    border-left: 12px solid var(--Orange-B-Simpson);
+    opacity: 0.75;
 }
     @media (prefers-color-scheme: dark) {
         blockquote {
@@ -296,6 +301,15 @@ blockquote {
      */
         font-style: normal;
     }
+
+/*  Change text-selection colour to "Yellow Head", which is the colour
+ *  the Iain emoji (/icons/iain.png) when it's inverted during hover and
+ *  Dark Mode.  From: https://www.w3schools.com/cssref/sel_selection.asp
+ */
+::selection {
+    background: var(--Yellow-Head);
+}
+
 
 
 /*
@@ -317,9 +331,9 @@ footer {
     font-variant-ligatures: none;
     text-align: center;
     align-items: center;                       /* Vertical alignment. */
-    border-top: 3px solid var(--Dark-Orange);
+    border-top: 3px solid var(--Orange-B-Simpson);
     padding-top: 10px;
-    border-bottom: 3px solid var(--Dark-Orange);
+    border-bottom: 3px solid var(--Orange-B-Simpson);
     padding-bottom: 10px;
     margin-bottom: 20px;
 }

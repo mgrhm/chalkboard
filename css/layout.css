@@ -100,6 +100,7 @@ header {
     @media (prefers-color-scheme: dark) {
         header {
             background: var(--Onyx);
+            border-bottom: 3px solid var(--Iain-Blue-Simpson);
         }
     }
 
@@ -284,6 +285,11 @@ blockquote {
     padding-right: 24pt;
     border-left: 12px solid var(--Dark-Orange);
 }
+    @media (prefers-color-scheme: dark) {
+        blockquote {
+            border-left: 12px solid var(--Iain-Blue-Simpson);
+        }
+    }
     blockquote em {
     /*  This code makes <em>phasised text within a blockquote appear
      *  as roman, since the main body of the quote is italic.
@@ -317,6 +323,13 @@ footer {
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
+    @media (prefers-color-scheme: dark) {
+        footer {
+            background: var(--Onyx);
+            border-top: 3px solid var(--Iain-Blue-Simpson);
+            border-bottom: 3px solid var(--Iain-Blue-Simpson);
+        }
+    }
 
     footer a {
     /*  This ensures that *all* links in the footer bar have clearance

@@ -1,5 +1,5 @@
 .landing img {
-    float: left;
+    float:  left;
     border: 12px solid var(--Orange-B-Simpson);
     margin-right: 32pt;
 }
@@ -16,10 +16,8 @@
                  "Century Gothic",
                   sans-serif;
     font-size:    32pt;
-    line-height: 42pt;
-/*  When using Sitelen Pona Pona, ligatures need to be disabled or the
- *  text appears inside a chevron.  This is used to deliberate effect
- *  for the post tags. */
+    line-height:  42pt;
+    max-width:    34ch;
 }
     .landing h3 em {
         font-family: "Permanent Marker",
@@ -32,15 +30,13 @@
                  "Century Gothic",
                   sans-serif;
     font-size:    18pt;
-    line-height: 24pt;
-/*  When using Sitelen Pona Pona, ligatures need to be disabled or the
- *  text appears inside a chevron.  This is used to deliberate effect
- *  for the post tags. */
+    line-height:  24pt;
+    max-width:    64ch;
 }
 
 .landing ul {
     float: left;
-    margin-top: 24pt;
+    margin-top:    24pt;
     margin-bottom: 48pt;
 }
 
@@ -57,7 +53,9 @@
     padding-bottom: 24pt;
 }
     .landing li img {
-        padding-right: 10pt;
+    /*  This is needed to remove the border that's set above to add a
+     *  border to the headshot.
+     */
         border: none;
     }
         @media (prefers-color-scheme: dark) {
@@ -66,8 +64,3 @@
                 opacity: 1.0;
             }
         }
-
-a.recent-link {
-    margin: 0px;
-    padding: 0px;
-}

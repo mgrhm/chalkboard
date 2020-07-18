@@ -54,7 +54,7 @@ a {
         color: var(--Orange-B-Simpson);
     }
 
-   a:active {
+    a:active {
         color: var(--Yellow-Head);
         background: var(--Onyx);
     }
@@ -129,6 +129,7 @@ header {
     header a.header-name {
         color: var(--Orange-B-Simpson);
         font-size: 24pt;
+        text-transform: uppercase;
     }
         header a.header-name:hover {
             color: var(--Isabelline);
@@ -154,7 +155,7 @@ header {
         color: var(--Iain-Blue-Simpson);
     }
         header a.header-about:hover {
-            color: var(--Isabelline);
+            color: var(--Yellow-Head);
             background: var(--Iain-Blue-Simpson);
         }
             @media (prefers-color-scheme: dark) {
@@ -170,7 +171,7 @@ header {
         color: var(--Orange-B-Simpson);
     }
         header a.header-blog:hover {
-            color: var(--Isabelline);
+            color: var(--Iron-Blue-Simpson);
             background: var(--Orange-B-Simpson);
         }
             @media (prefers-color-scheme: dark) {
@@ -178,6 +179,22 @@ header {
                     filter: invert(100%) !important;
                 }
                     header a.header-blog:hover {
+                        filter: invert(100%) !important;
+                    }
+            }
+
+    header a.header-resources {
+        color: var(--Iain-Blue-Simpson);
+    }
+        header a.header-resources:hover {
+            color: var(--Yellow-Head);
+            background: var(--Iain-Blue-Simpson);
+        }
+            @media (prefers-color-scheme: dark) {
+                header a.header-resources {
+                    filter: invert(100%) !important;
+                }
+                    header a.header-resources:hover {
                         filter: invert(100%) !important;
                     }
             }

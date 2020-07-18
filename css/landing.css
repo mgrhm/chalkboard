@@ -3,6 +3,12 @@
     border: 12px solid var(--Orange-B-Simpson);
     margin-right: 32pt;
 }
+    @media (prefers-color-scheme: dark) {
+        .landing img {
+            border: 12px solid var(--Iain-Blue-Simpson);
+            opacity: 0.7;
+        }
+    }
 
 .landing h3 {
     font-family: "Futura",
@@ -56,6 +62,12 @@
         border: none;
         text-indent: -32pt;
     }
+        @media (prefers-color-scheme: dark) {
+            .landing li img {
+                filter: invert(100%) !important;
+                opacity: 1.0;
+            }
+        }
 
 a.recent-link {
     margin: 0px;

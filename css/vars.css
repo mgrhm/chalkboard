@@ -32,13 +32,25 @@
  *   which is used for the LinkedIn header link.  */
     --Double-Windsor: #043c94;
 
-    --Davys-Gray:           #5c5c5c;
+/*  "Grey Mail" is the colour of the Email emoji (/icons/email.png). */
+    --Grey-Mail:            #5c5c5c;
+/*  "Paler Postage" is the inverted hover of Grey Mail. */
+    --Paler-Postage:        #a3a3a3;
 
 /*  "Homely Red" is the colour of the Home emoji (/icons/home.png). */
     --Homely-Red:           #fc0404;
+/*  "Blue Toon" is the inverted hover of Homely Red. */
+    --Blue-Toon:            #03fbfb;
 
-    --Mahogany:             #b44c04;
+/*  "Iain Brown Simpson" is the colour of the privacy emoji 
+ *   (/icons/privacy.png) */
+    --Iain-Brown-Simpson:   #b44c04;
+/*  "Blue It" is the inverted hover of Iain Brown Simpson. */
+    --Blue-It:              #4bb3fb;
 
-    --Dark-Pastel-Green:    #04c43c;
-
+/*  "I. B. Simpsgreen" is the colour of the copyright emoji 
+ *   (/icons/copyright.png) */
+    --I-B-Simpsgreen:    #04c43c;
+/*  "Private Purple" is the inverted hover of I. B. Simpsgreen. */
+    --Private-Purple:    #fb3bc3;
 }

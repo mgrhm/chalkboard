@@ -140,6 +140,15 @@ header {
                     filter: invert(100%) !important;
                 }
                     header a.header-name:hover {
+                    /*  The 'color' variable here is a little hacky.
+                     *  It's specifically targeted to set the hover
+                     *  colour to the *opposite* of Onyx, so that when
+                     *  the invert filter applies, it correctly displays
+                     *  the hovered text as Onyx.  This is only needed
+                     *  in Dark Mode because Isabelline inverts into a
+                     *  very near-black colour and stands out.
+                     */
+                        color: #cecacc;
                         filter: invert(100%) !important;
                     }
                     header a.header-name:hover img {
@@ -216,11 +225,11 @@ header {
             }
 
     header a.header-email {
-        color: var(--Davys-Gray);
+        color: var(--Grey-Mail);
     }
         header a.header-email:hover {
-            color: var(--Isabelline);
-            background: var(--Davys-Gray);
+            color: var(--Paler-Postage);
+            background: var(--Grey-Mail);
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-email {
@@ -395,7 +404,7 @@ footer {
         color: var(--Homely-Red);
     }
         footer a.footer-home:hover {
-            color: var(--Isabelline);
+            color: var(--Blue-Toon);
             background: var(--Homely-Red);
         }
             @media (prefers-color-scheme: dark) {
@@ -408,11 +417,11 @@ footer {
             }
 
     footer a.footer-privacy {
-        color: var(--Mahogany);
+        color: var(--Iain-Brown-Simpson);
     }
         footer a.footer-privacy:hover {
-            color: var(--Isabelline);
-            background: var(--Mahogany);
+            color: var(--Blue-It);
+            background: var(--Iain-Brown-Simpson);
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-privacy {
@@ -424,11 +433,11 @@ footer {
             }
 
     footer a.footer-copyright {
-        color: var(--Dark-Pastel-Green);
+        color: var(--I-B-Simpsgreen);
     }
         footer a.footer-copyright:hover {
-            color: var(--Isabelline);
-            background: var(--Dark-Pastel-Green);
+            color: var(--Private-Purple);
+            background: var(--I-B-Simpsgreen);
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-copyright {

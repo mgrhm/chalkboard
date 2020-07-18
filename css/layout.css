@@ -47,16 +47,25 @@ a {
     text-decoration: none;
     border-bottom: 3px solid var(--Orange-B-Simpson);
     font-weight: 600;
-    padding-right: 1px;
+    padding-left:  2px;
+    padding-right: 2px;
 }
     a:hover {
         color: var(--Orange-B-Simpson);
+    }
+
+    a:active {
+        color: var(--Yellow-Head);
+        background: var(--Onyx);
     }
             @media (prefers-color-scheme: dark) {
                 main a {
                     filter: invert(100%) !important;
                 }
                     main a:hover {
+                        filter: invert(100%) !important;
+                    }
+                    main a:active {
                         filter: invert(100%) !important;
                     }
             }
@@ -124,6 +133,7 @@ header {
     header a.header-name {
         color: var(--Orange-B-Simpson);
         font-size: 24pt;
+        text-transform: uppercase;
     }
         header a.header-name:hover {
             color: var(--Isabelline);
@@ -134,6 +144,15 @@ header {
                     filter: invert(100%) !important;
                 }
                     header a.header-name:hover {
+                    /*  The 'color' variable here is a little hacky.
+                     *  It's specifically targeted to set the hover
+                     *  colour to the *opposite* of Onyx, so that when
+                     *  the invert filter applies, it correctly displays
+                     *  the hovered text as Onyx.  This is only needed
+                     *  in Dark Mode because Isabelline inverts into a
+                     *  very near-black colour and stands out.
+                     */
+                        color: #cecacc;
                         filter: invert(100%) !important;
                     }
                     header a.header-name:hover img {
@@ -149,7 +168,7 @@ header {
         color: var(--Iain-Blue-Simpson);
     }
         header a.header-about:hover {
-            color: var(--Isabelline);
+            color: var(--Yellow-Head);
             background: var(--Iain-Blue-Simpson);
         }
             @media (prefers-color-scheme: dark) {
@@ -165,7 +184,7 @@ header {
         color: var(--Orange-B-Simpson);
     }
         header a.header-blog:hover {
-            color: var(--Isabelline);
+            color: var(--Iron-Blue-Simpson);
             background: var(--Orange-B-Simpson);
         }
             @media (prefers-color-scheme: dark) {
@@ -173,6 +192,22 @@ header {
                     filter: invert(100%) !important;
                 }
                     header a.header-blog:hover {
+                        filter: invert(100%) !important;
+                    }
+            }
+
+    header a.header-resources {
+        color: var(--Iain-Blue-Simpson);
+    }
+        header a.header-resources:hover {
+            color: var(--Yellow-Head);
+            background: var(--Iain-Blue-Simpson);
+        }
+            @media (prefers-color-scheme: dark) {
+                header a.header-resources {
+                    filter: invert(100%) !important;
+                }
+                    header a.header-resources:hover {
                         filter: invert(100%) !important;
                     }
             }
@@ -194,11 +229,11 @@ header {
             }
 
     header a.header-email {
-        color: var(--Davys-Gray);
+        color: var(--Grey-Mail);
     }
         header a.header-email:hover {
-            color: var(--Isabelline);
-            background: var(--Davys-Gray);
+            color: var(--Paler-Postage);
+            background: var(--Grey-Mail);
         }
             @media (prefers-color-scheme: dark) {
                 header a.header-email {
@@ -265,14 +300,17 @@ a.post-tags-link {
     border-bottom: none;
 }
     a.post-tags-link:hover {
+        color: var(--Orange-B-Simpson);
         font-family: "sitelen-pona-pona",
                      "Futura",
                      "Poppins",
                      "Century Gothic",
                       sans-serif;
         font-feature-settings: "liga" 1;
-        color: var(--Orange-B-Simpson);
-}
+    }
+    a.post-tags-link:active {
+        background: none;
+    }
 
 p + p {
     text-indent: 28pt;
@@ -283,8 +321,8 @@ blockquote {
     font-style:    italic;
     padding-left:  24pt;
     padding-right: 24pt;
+    opacity:       0.75;
     border-left: 12px solid var(--Orange-B-Simpson);
-    opacity: 0.75;
 }
     @media (prefers-color-scheme: dark) {
         blockquote {
@@ -370,7 +408,7 @@ footer {
         color: var(--Homely-Red);
     }
         footer a.footer-home:hover {
-            color: var(--Isabelline);
+            color: var(--Blue-Toon);
             background: var(--Homely-Red);
         }
             @media (prefers-color-scheme: dark) {
@@ -383,11 +421,11 @@ footer {
             }
 
     footer a.footer-privacy {
-        color: var(--Mahogany);
+        color: var(--Iain-Brown-Simpson);
     }
         footer a.footer-privacy:hover {
-            color: var(--Isabelline);
-            background: var(--Mahogany);
+            color: var(--Blue-It);
+            background: var(--Iain-Brown-Simpson);
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-privacy {
@@ -399,11 +437,11 @@ footer {
             }
 
     footer a.footer-copyright {
-        color: var(--Dark-Pastel-Green);
+        color: var(--I-B-Simpsgreen);
     }
         footer a.footer-copyright:hover {
-            color: var(--Isabelline);
-            background: var(--Dark-Pastel-Green);
+            color: var(--Private-Purple);
+            background: var(--I-B-Simpsgreen);
         }
             @media (prefers-color-scheme: dark) {
                 footer a.footer-copyright {

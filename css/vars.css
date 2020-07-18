@@ -18,13 +18,15 @@
 /*  "Orange B. Simpson" is the colour of the blog emoji (/icons/blog.png)
  *   and is used for link underline and hover, and other colourful and
  *   emphasis elements. */
-    --Orange-B-Simpson:     #fc8c04;
+    --Orange-B-Simpson:     #ff8c00;
 
     --Iain-Blue-Simpson:    #0404fc;
 
+    --Iron-Blue-Simpson:    #0073ff;
+
 /*  "Yellow Head" is the colour of the Iain emoji (/icons/iain.png) when
  *   it's inverted during hover and Dark Mode.  */
-    --Yellow-Head:          #fcef34;
+    --Yellow-Head:          #ffff02;
 
 /*  "Double Windsor" is the colour of the Tie emoji (/icons/tie.png)
  *   which is used for the LinkedIn header link.  */

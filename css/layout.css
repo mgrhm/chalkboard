@@ -47,10 +47,16 @@ a {
     text-decoration: none;
     border-bottom: 3px solid var(--Orange-B-Simpson);
     font-weight: 600;
-    padding-right: 1px;
+    padding-left:  2px;
+    padding-right: 2px;
 }
     a:hover {
         color: var(--Orange-B-Simpson);
+    }
+
+   a:active {
+        color: var(--Yellow-Head);
+        background: var(--Onyx);
     }
             @media (prefers-color-scheme: dark) {
                 main a {
@@ -59,15 +65,10 @@ a {
                     main a:hover {
                         filter: invert(100%) !important;
                     }
+                    main a:active {
+                        filter: invert(100%) !important;
+                    }
             }
-
-    a:active {
-        background: var(--Yellow-Head);
-    }
-
-    a.affiliate-link::after {
-        content: url(dollars-small.png);
-    }
 
 
 /*
@@ -269,14 +270,17 @@ a.post-tags-link {
     border-bottom: none;
 }
     a.post-tags-link:hover {
+        color: var(--Orange-B-Simpson);
         font-family: "sitelen-pona-pona",
                      "Futura",
                      "Poppins",
                      "Century Gothic",
                       sans-serif;
         font-feature-settings: "liga" 1;
-        color: var(--Orange-B-Simpson);
-}
+    }
+    a.post-tags-link:active {
+        background: none;
+    }
 
 p + p {
     text-indent: 28pt;
@@ -287,8 +291,8 @@ blockquote {
     font-style:    italic;
     padding-left:  24pt;
     padding-right: 24pt;
+    opacity:       0.75;
     border-left: 12px solid var(--Orange-B-Simpson);
-    opacity: 0.75;
 }
     @media (prefers-color-scheme: dark) {
         blockquote {

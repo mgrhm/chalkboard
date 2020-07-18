@@ -1,0 +1,63 @@
+.landing img {
+    float: left;
+    border: 12px solid var(--Orange-B-Simpson);
+    margin-right: 32pt;
+}
+
+.landing h3 {
+    font-family: "Futura",
+                 "Poppins",
+                 "Century Gothic",
+                  sans-serif;
+    font-size:    32pt;
+    line-height: 42pt;
+/*  When using Sitelen Pona Pona, ligatures need to be disabled or the
+ *  text appears inside a chevron.  This is used to deliberate effect
+ *  for the post tags. */
+}
+    .landing h3 em {
+        font-family: "Permanent Marker",
+                      cursive;
+    }
+
+.landing h4 {
+    font-family: "Futura",
+                 "Poppins",
+                 "Century Gothic",
+                  sans-serif;
+    font-size:    18pt;
+    line-height: 24pt;
+/*  When using Sitelen Pona Pona, ligatures need to be disabled or the
+ *  text appears inside a chevron.  This is used to deliberate effect
+ *  for the post tags. */
+}
+
+.landing ul {
+    float: left;
+    margin-top: 24pt;
+    margin-bottom: 48pt;
+}
+
+.landing li {
+    max-width: 52ch;
+    font-family: "Futura",
+                 "Poppins",
+                 "Century Gothic",
+                  sans-serif;
+    font-size:    18pt;
+    line-height: 170%;
+    list-style: none;
+    text-indent: -32pt;
+    padding-left: 66pt;
+    padding-bottom: 10pt;
+}
+    .landing li img {
+        padding-right: 10pt;
+        border: none;
+        text-indent: -32pt;
+    }
+
+a.recent-link {
+    margin: 0px;
+    padding: 0px;
+}

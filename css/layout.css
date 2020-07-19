@@ -298,7 +298,7 @@ a.post-tags-link {
     a.post-tags-link:hover {
         color: var(--Orange-B-Simpson);
         font-family: "sitelen-pona-pona",
-                     "   "Poppins",
+                     "Poppins",
                      "Century Gothic",
                       sans-serif;
         font-feature-settings: "liga" 1;
@@ -337,8 +337,8 @@ code {
                    monospace;
     font-weight:   500;
     background:    var(--Misty-Rose);
-    padding-left:  3px;
-    padding-right: 3px;
+    padding-left:  4px;
+    padding-right: 4px;
 }
     @media (prefers-color-scheme: dark) {
         code {

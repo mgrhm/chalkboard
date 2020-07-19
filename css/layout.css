@@ -85,8 +85,7 @@ a {
  */
 
 header {
-    font-family: "Futura",
-                 "Poppins",
+    font-family: "Poppins",
                  "Century Gothic",
                   sans-serif;
     font-size:    18pt;
@@ -269,7 +268,6 @@ main {
 
 h2 {
     font-family: "sitelen-pona-pona",
-                 "Futura",
                  "Poppins",
                  "Century Gothic",
                   sans-serif;
@@ -281,7 +279,6 @@ h2 {
 
 p.post-tags {
     font-family: "sitelen-pona-pona",
-                 "Futura",
                  "Poppins",
                  "Century Gothic",
                   sans-serif;
@@ -291,7 +288,6 @@ p.post-tags {
 
 a.post-tags-link {
     font-family: "sitelen-pona-pona",
-                 "Futura",
                  "Poppins",
                  "Century Gothic",
                   sans-serif;
@@ -302,8 +298,7 @@ a.post-tags-link {
     a.post-tags-link:hover {
         color: var(--Orange-B-Simpson);
         font-family: "sitelen-pona-pona",
-                     "Futura",
-                     "Poppins",
+                     "   "Poppins",
                      "Century Gothic",
                       sans-serif;
         font-feature-settings: "liga" 1;

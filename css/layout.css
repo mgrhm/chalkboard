@@ -336,6 +336,34 @@ blockquote {
         font-style: normal;
     }
 
+
+code {
+    font-family:  "Fira Mono",
+                   monospace;
+    font-weight:   500;
+    background:    var(--Misty-Rose);
+    padding-left:  3px;
+    padding-right: 3px;
+}
+    @media (prefers-color-scheme: dark) {
+        code {
+           background: var(--Grey-Mail);
+        }
+    }
+
+pre {
+    font-family: "Fira Mono",
+                  monospace;
+    font-weight:  500;
+    background:   var(--Misty-Rose);
+    padding:      10px;
+}
+    @media (prefers-color-scheme: dark) {
+        pre {
+           background: var(--Grey-Mail);
+        }
+    }
+
 /*  Change text-selection colour to "Yellow Head", which is the colour
  *  the Iain emoji (/icons/iain.png) when it's inverted during hover and
  *  Dark Mode.  From: https://www.w3schools.com/cssref/sel_selection.asp

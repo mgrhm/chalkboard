@@ -113,7 +113,6 @@ header {
      *  on the right to space out the icons and links.
      */
         margin-right:   20px;
-        padding-left:    5px;
         padding-top:    15px;
         padding-bottom: 10px;
         padding-right:  10px;
@@ -250,13 +249,13 @@ header {
  */
 
 main {
-    margin-left:   50px;
-    margin-right:  50px;
     font-family: "Poppins",
                   sans-serif;
     font-weight:  400;
     font-size:     14pt;
     line-height:  160%;
+    margin-left:   50px;
+    margin-right:  50px;
     margin-bottom: 40px;
     padding-top: 80px;
 }
@@ -294,7 +293,7 @@ a.post-tags-link {
     a.post-tags-link:hover {
         color: var(--Orange-B-Simpson);
         font-family: "sitelen-pona-pona",
-                     "   "Poppins",
+                     "Poppins",
                      "Century Gothic",
                       sans-serif;
         font-feature-settings: "liga" 1;
@@ -333,8 +332,8 @@ code {
                    monospace;
     font-weight:   500;
     background:    var(--Misty-Rose);
-    padding-left:  3px;
-    padding-right: 3px;
+    padding-left:  4px;
+    padding-right: 4px;
 }
     @media (prefers-color-scheme: dark) {
         code {
@@ -379,25 +378,24 @@ pre {
  */
 
 footer {
-    font-family: "Futura",
-                 "Poppins",
+    font-family: "Poppins",
                  "Century Gothic",
                   sans-serif;
     font-size:    18pt;
     font-weight:  bold;
     font-variant-ligatures: none;
-    text-align: center;
-    align-items: center;                       /* Vertical alignment. */
-    border-top: 3px solid var(--Orange-B-Simpson);
+    text-align:   center;
+    align-items:  center;                      /* Vertical alignment. */
+    border-top:   3px solid var(--Orange-B-Simpson);
     padding-top: 10px;
     border-bottom: 3px solid var(--Orange-B-Simpson);
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom:  20px;
 }
     @media (prefers-color-scheme: dark) {
         footer {
             background: var(--Onyx);
-            border-top: 3px solid var(--Iain-Blue-Simpson);
+            border-top:    3px solid var(--Iain-Blue-Simpson);
             border-bottom: 3px solid var(--Iain-Blue-Simpson);
         }
     }

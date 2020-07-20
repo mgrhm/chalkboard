@@ -354,6 +354,36 @@ pre {
         }
     }
 
+.infobox {
+    border: 4px solid var(--Orange-B-Simpson);
+    border-left: 12px solid var(--Orange-B-Simpson);
+    padding: 12pt;
+    margin:  24pt;
+    text-indent: 0;
+    font-style: normal;      /* Cancels out blockquote's italic text. */
+    background: var(--Misty-Rose);
+    min-height: 80px;                 /* Gives the icon enough space. */
+    clear: left;
+    opacity: 1;     /* Cancels out blockquote's partial transparency. */
+}
+    @media (prefers-color-scheme: dark) {
+        .infobox img {
+            border: 4px solid var(--Iain-Blue-Simpson);
+            border-left: 12px solid var(--Iain-Blue-Simpson);
+            background: var(--Paler-Postage);
+        }
+    }
+    .infobox img {
+        padding-right: 12pt;
+        float:  left;
+        border: none;
+    }
+        @media (prefers-color-scheme: dark) {
+            .infobox img {
+                filter: invert(100%) !important;
+            }
+        }
+
 /*  Change text-selection colour to "Yellow Head", which is the colour
  *  the Iain emoji (/icons/iain.png) when it's inverted during hover and
  *  Dark Mode.  From: https://www.w3schools.com/cssref/sel_selection.asp

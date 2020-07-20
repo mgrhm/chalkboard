@@ -36,8 +36,8 @@
 
 /*  "Grey Mail" is the colour of the Email emoji (/icons/email.png). */
     --Grey-Mail:            #5c5c5c;
-/*  "Paler Postage" is the inverted hover of Grey Mail. */
-    --Paler-Postage:        #a3a3a3;
+/*  "Pale Mail" is the inverted hover of Grey Mail. */
+    --Pale-Mail:            #a3a3a3;
 
 /*  "Homely Red" is the colour of the Home emoji (/icons/home.png). */
     --Homely-Red:           #fc0404;

@@ -226,7 +226,7 @@ header {
         color: var(--Grey-Mail);
     }
         header a.header-email:hover {
-            color: var(--Paler-Postage);
+            color: var(--Pale-Mail);
             background: var(--Grey-Mail);
         }
             @media (prefers-color-scheme: dark) {
@@ -380,6 +380,36 @@ pre {
     }
         @media (prefers-color-scheme: dark) {
             .infobox img {
+                filter: invert(100%) !important;
+            }
+        }
+
+.greybox {
+    border: 4px solid var(--Grey-Mail);
+    border-left: 12px solid var(--Grey-Mail);
+    padding: 12pt;
+    margin:  24pt;
+    text-indent: 0;
+    font-style: normal;      /* Cancels out blockquote's italic text. */
+    background: var(--Pale-Mail);
+    min-height: 80px;                 /* Gives the icon enough space. */
+    clear: left;
+    opacity: 1;     /* Cancels out blockquote's partial transparency. */
+}
+    @media (prefers-color-scheme: dark) {
+        .greybox {
+            border: 4px solid var(--Pale-Mail);
+            border-left: 12px solid var(--Pale-Mail);
+            background: var(--Grey-Mail);
+        }
+    }
+    .greybox img {
+        padding-right: 12pt;
+        float:  left;
+        border: none;
+    }
+        @media (prefers-color-scheme: dark) {
+            .greybox img {
                 filter: invert(100%) !important;
             }
         }

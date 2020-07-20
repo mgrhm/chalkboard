@@ -81,7 +81,8 @@ a {
  */
 
 header {
-    font-family: "Poppins",
+    font-family: "Futura",
+                 "Poppins",
                  "Century Gothic",
                   sans-serif;
     font-size:    18pt;
@@ -113,6 +114,7 @@ header {
      *  on the right to space out the icons and links.
      */
         margin-right:   20px;
+        padding-left:    5px;
         padding-top:    15px;
         padding-bottom: 10px;
         padding-right:  10px;
@@ -249,13 +251,13 @@ header {
  */
 
 main {
+    margin-left:   50px;
+    margin-right:  50px;
     font-family: "Poppins",
                   sans-serif;
     font-weight:  400;
     font-size:     14pt;
     line-height:  160%;
-    margin-left:   50px;
-    margin-right:  50px;
     margin-bottom: 40px;
     padding-top: 80px;
 }
@@ -263,6 +265,7 @@ main {
 
 h2 {
     font-family: "sitelen-pona-pona",
+                 "Futura",
                  "Poppins",
                  "Century Gothic",
                   sans-serif;
@@ -274,6 +277,7 @@ h2 {
 
 p.post-tags {
     font-family: "sitelen-pona-pona",
+                 "Futura",
                  "Poppins",
                  "Century Gothic",
                   sans-serif;
@@ -283,6 +287,7 @@ p.post-tags {
 
 a.post-tags-link {
     font-family: "sitelen-pona-pona",
+                 "Futura",
                  "Poppins",
                  "Century Gothic",
                   sans-serif;
@@ -293,6 +298,7 @@ a.post-tags-link {
     a.post-tags-link:hover {
         color: var(--Orange-B-Simpson);
         font-family: "sitelen-pona-pona",
+                     "Futura",
                      "Poppins",
                      "Century Gothic",
                       sans-serif;
@@ -326,63 +332,53 @@ blockquote {
         font-style: normal;
     }
 
-
-code {
-    font-family:  "Fira Mono",
-                   monospace;
-    font-weight:   500;
-    background:    var(--Misty-Rose);
-    padding-left:  4px;
-    padding-right: 4px;
-}
-    @media (prefers-color-scheme: dark) {
-        code {
-           background: var(--Grey-Mail);
-        }
-    }
-
-pre {
-    font-family: "Fira Mono",
-                  monospace;
-    font-weight:  500;
-    background:   var(--Misty-Rose);
-    padding:      10px;
-}
-    @media (prefers-color-scheme: dark) {
-        pre {
-           background: var(--Grey-Mail);
-        }
-    }
-
 .infobox {
-    border: 4px solid var(--Orange-B-Simpson);
-    border-left: 12px solid var(--Orange-B-Simpson);
-    padding: 12pt;
-    margin:  24pt;
-    text-indent: 0;
-    font-style: normal;      /* Cancels out blockquote's italic text. */
-    background: var(--Misty-Rose);
-    min-height: 80px;                 /* Gives the icon enough space. */
-    clear: left;
-    opacity: 1;     /* Cancels out blockquote's partial transparency. */
+    padding-left: 90px;
+    background-image: url(info.png);
+    background-position: top left;
+    background-repeat: no-repeat;
 }
     @media (prefers-color-scheme: dark) {
         .infobox {
-            border: 4px solid var(--Iain-Blue-Simpson);
-            border-left: 12px solid var(--Iain-Blue-Simpson);
-            background: var(--Midnight-Rose);
+            background-image: url(info-dark-mode.png);
         }
     }
-    .infobox img {
-        padding-right: 12pt;
-        float:  left;
-        border: none;
-    }
-        @media (prefers-color-scheme: dark) {
-            .infobox img {
-                filter: invert(100%) !important;
-            }
+
+.info-box {
+    padding-left: 90px;
+    background-image: url(info.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+    @media (prefers-color-scheme: dark) {
+        .info-box {
+            background-image: url(info-dark-mode.png);
         }
+    }
+
+.important-box {
+    padding-left: 90px;
+    background-image: url(exclaim-double.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+    @media (prefers-color-scheme: dark) {
+        .important-box {
+            background-image: url(exclaim-double-dark-mode.png);
+        }
+    }
+
+.license-box {
+    padding-left: 90px;
+    background-image: url(reuse.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+    @media (prefers-color-scheme: dark) {
+        .license-box {
+            background-image: url(reuse-dark-mode.png);
+        }
+    }
 
 /*  Change text-selection colour to "Yellow Head", which is the colour
  *  the Iain emoji (/icons/iain.png) when it's inverted during hover and
@@ -408,24 +404,25 @@ pre {
  */
 
 footer {
-    font-family: "Poppins",
+    font-family: "Futura",
+                 "Poppins",
                  "Century Gothic",
                   sans-serif;
     font-size:    18pt;
     font-weight:  bold;
     font-variant-ligatures: none;
-    text-align:   center;
-    align-items:  center;                      /* Vertical alignment. */
-    border-top:   3px solid var(--Orange-B-Simpson);
+    text-align: center;
+    align-items: center;                       /* Vertical alignment. */
+    border-top: 3px solid var(--Orange-B-Simpson);
     padding-top: 10px;
     border-bottom: 3px solid var(--Orange-B-Simpson);
     padding-bottom: 10px;
-    margin-bottom:  20px;
+    margin-bottom: 20px;
 }
     @media (prefers-color-scheme: dark) {
         footer {
             background: var(--Onyx);
-            border-top:    3px solid var(--Iain-Blue-Simpson);
+            border-top: 3px solid var(--Iain-Blue-Simpson);
             border-bottom: 3px solid var(--Iain-Blue-Simpson);
         }
     }

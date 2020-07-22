@@ -528,3 +528,55 @@ footer {
                         filter: invert(100%) !important;
                     }
             }
+
+
+/*
+ *    ██╗  ██╗ ██████╗ ██╗  ██╗    ██████╗  █████╗  ██████╗ ███████╗
+ *    ██║  ██║██╔═████╗██║  ██║    ██╔══██╗██╔══██╗██╔════╝ ██╔════╝
+ *    ███████║██║██╔██║███████║    ██████╔╝███████║██║  ███╗█████╗
+ *    ╚════██║████╔╝██║╚════██║    ██╔═══╝ ██╔══██║██║   ██║██╔══╝
+ *         ██║╚██████╔╝     ██║    ██║     ██║  ██║╚██████╔╝███████╗
+ *         ╚═╝ ╚═════╝      ╚═╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+ *     Styles for the 404 page.  You can't name a CSS class using
+ *     numbers, so I settled for the more descriptive "i-am-lost".
+ */
+
+.i-am-lost {
+    font-family: "Poppins",
+                 "Century Gothic",
+                  sans-serif;
+    font-size:    24pt;
+    line-height: 170%;
+    max-width:    40ch;
+}
+    .i-am-lost em {
+        font-size: 32pt;
+        font-family: "Permanent Marker",
+                      cursive;
+    }
+
+.i-am-lost img {
+    float:  left;
+    margin-right: 32pt;
+}
+    @media (prefers-color-scheme: dark) {
+        .i-am-lost img {
+            filter: invert(100%) !important;
+        }
+    }
+
+.i-am-lost ul {
+    font-size:     18pt;
+    line-height:  170%;
+    max-width:     52ch;
+    margin-top:    24pt;
+    margin-bottom: 48pt;
+    float: left;
+}
+    .i-am-lost li {
+        list-style: none;
+        padding-left:   24pt;
+        padding-bottom: 24pt;
+        max-width:      52ch;
+        clear: both;
+    }

@@ -1,0 +1,22 @@
+<!-- This download box uses the 1234 icon. -->
+<blockquote class="download-box">
+
+    <img src="icons/1234.png" width="80">
+
+        <!-- Use bullets to space items; these are not shown. -->
+        <li> 
+            <a href="XXXXXXXX">Download this worksheet</a>
+        <!-- Delete filesize info as applicable. -->
+            (XXX file, XXX&thinsp;<abbr="kilobytes">KB</abbr>)
+            (XXX file, XXX&thinsp;<abbr="megabytes">MB</abbr>)
+        </li>
+
+
+        <li>
+            <!-- Short description of contents here.  This *will* wrap
+                 around and underneath the icon is it's too long, or if
+                 the viewer's window is too narrow. -->
+            Contains Word documents and images to print.
+        </li>
+
+  </blockquote>

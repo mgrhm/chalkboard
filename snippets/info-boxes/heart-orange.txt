@@ -1,0 +1,11 @@
+<!-- This infobox uses the orange heart icon. -->
+<blockquote class="infobox">
+
+    <img src="icons/heart-orange.png” width="80">
+
+            <!-- Short description of contents here.  This *will* wrap
+                 around and underneath the icon is it's too long, or if
+                 the viewer's window is too narrow. -->
+            Contains Word documents and images to print.
+
+  </blockquote>

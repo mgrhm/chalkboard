@@ -6,12 +6,13 @@
  *  with a few changes here.
  */
 
-/*  "Onyx" is the body text colour in Day Mode, and the background
- *   colour in Night Mode; it's borrowed from Pickled.  */
-    --Onyx:                 #313533;
-
+/*  "Isabelline" is the light mode background, taken from Picked. */
     --Isabelline:           #fef9f5;     /* Light mode background. */
+/*  "Indigo Dye" is the inverse of "Isabelline", and is used as the
+ *   Light Mode text and Dark Mode background. */
+    --Indigo-Dye:           #143C54;     /* Dark mode background. */
 
+/*  "Misty Rose" is the dark mode text, taken from Picked. */
     --Misty-Rose:           #f9e0d9;     /* Dark mode text; some BGs. */
 /*  "Midnight Rose" is the inverse of "Misty Rose". */
     --Midnight-Rose:        #061f26;

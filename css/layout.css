@@ -26,14 +26,14 @@
  */
 
 html {
-    color: var(--Onyx);
+    color: var(--Indigo-Dye);
     background: var(--Isabelline);
     margin-top:    0;
     margin-bottom: 0;
 }
     @media (prefers-color-scheme: dark) {
         html {
-            background: var(--Onyx);
+            background: var(--Indigo-Dye);
             color: var(--Misty-Rose);
             }
         }
@@ -56,7 +56,7 @@ a {
 
     a:active {
         color: var(--Yellow-Head);
-        background: var(--Onyx);
+        background: var(--Indigo-Dye);
     }
             @media (prefers-color-scheme: dark) {
                 main a {
@@ -103,7 +103,7 @@ header {
 }
     @media (prefers-color-scheme: dark) {
         header {
-            background: var(--Onyx);
+            background: var(--Indigo-Dye);
             border-bottom: 3px solid var(--Iain-Blue-Simpson);
         }
     }
@@ -473,7 +473,7 @@ footer {
 }
     @media (prefers-color-scheme: dark) {
         footer {
-            background: var(--Onyx);
+            background: var(--Indigo-Dye);
             border-top:    3px solid var(--Iain-Blue-Simpson);
             border-bottom: 3px solid var(--Iain-Blue-Simpson);
         }

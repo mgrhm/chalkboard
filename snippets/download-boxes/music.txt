@@ -1,7 +1,7 @@
 <!-- This download box uses the musical notes icon. -->
 <blockquote class="download-box">
 
-    <img src="icons/music.png” width="80">
+    <img src="icons/music.png" width="80">
 
         <!-- Use bullets to space items; these are not shown. -->
         <li> 

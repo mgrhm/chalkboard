@@ -384,36 +384,6 @@ pre {
             }
         }
 
-.greybox {
-    border: 4px solid var(--Grey-Mail);
-    border-left: 12px solid var(--Grey-Mail);
-    padding: 12pt;
-    margin:  24pt;
-    text-indent: 0;
-    font-style: normal;      /* Cancels out blockquote's italic text. */
-    background: var(--Pale-Mail);
-    min-height: 80px;                 /* Gives the icon enough space. */
-    clear: left;
-    opacity: 1;     /* Cancels out blockquote's partial transparency. */
-}
-    @media (prefers-color-scheme: dark) {
-        .greybox {
-            border: 4px solid var(--Pale-Mail);
-            border-left: 12px solid var(--Pale-Mail);
-            background: var(--Grey-Mail);
-        }
-    }
-    .greybox img {
-        padding-right: 12pt;
-        float:  left;
-        border: none;
-    }
-        @media (prefers-color-scheme: dark) {
-            .greybox img {
-                filter: invert(100%) !important;
-            }
-        }
-
 /*  Change text-selection colour to "Yellow Head", which is the colour
  *  the Iain emoji (/icons/iain.png) when it's inverted during hover and
  *  Dark Mode.  From: https://www.w3schools.com/cssref/sel_selection.asp

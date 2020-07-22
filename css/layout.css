@@ -558,6 +558,7 @@ footer {
 .i-am-lost img {
     float:  left;
     margin-right: 32pt;
+    border: 0;
 }
     @media (prefers-color-scheme: dark) {
         .i-am-lost img {

@@ -25,6 +25,79 @@
  *                  designed to be fast, simple, and beautiful.
  */
 
+/*
+ *     ██████╗ ██████╗ ██╗      ██████╗ ██╗   ██╗██████╗ ███████╗
+ *    ██╔════╝██╔═══██╗██║     ██╔═══██╗██║   ██║██╔══██╗██╔════╝
+ *    ██║     ██║   ██║██║     ██║   ██║██║   ██║██████╔╝███████╗
+ *    ██║     ██║   ██║██║     ██║   ██║██║   ██║██╔══██╗╚════██║
+ *    ╚██████╗╚██████╔╝███████╗╚██████╔╝╚██████╔╝██║  ██║███████║
+ *     ╚═════╝ ╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝
+ *
+ *       Blackboard uses an extensive and varied repertoire of
+ *       colours, all of which are consolidated and named here.
+ */
+
+:root {
+/*  It's easier to call these colours using 'var(--Orange-Simpson)' than
+ *  to remember all the colour hex codes and try to decipher them while
+ *  working on the CSS file itself.  It also means we can update colours
+ *  throughout the entire theme with one single change here.
+ */
+
+/*  "Isabelline" is the light mode background, taken from Picked. */
+    --Isabelline:           #fef9f5;
+/*  "Indigo Dye" is the inverse of "Isabelline", and is used as the
+ *   Light Mode text and Dark Mode background. */
+    --Indigo-Dye:           #143C54;
+
+/*  "Misty Rose" is the dark mode text, taken from Pickled.  It's also
+ *  used for metabox and code block backgrounds in Light Mode. */
+    --Misty-Rose:           #f9e0d9;
+/*  "Midnight Rose" is the inverse of "Misty Rose"; it's used for the
+ *  background colour of metaboxes in Dark Mode. */
+    --Midnight-Rose:        #061f26;
+
+/*  "Orange B. Simpson" is the colour of the Reflections emoji
+ *  (/icons/blog.png) and is used for link underline and hover, and
+ *  other colourful and emphasis elements. */
+    --Orange-B-Simpson:     #ff8c00;
+
+    --Iain-Blue-Simpson:    #0404fc;
+
+    --Iron-Blue-Simpson:    #0073ff;
+
+/*  "Yellow Head" is the colour of the Iain emoji (/icons/iain.png) when
+ *   it's inverted during hover and Dark Mode.  */
+    --Yellow-Head:          #ffff02;
+
+/*  "Double Windsor" is the colour of the Tie emoji (/icons/tie.png)
+ *   which is used for the LinkedIn header link.  */
+    --Double-Windsor:       #043c94;
+
+/*  "Grey Mail" is the colour of the Email emoji (/icons/email.png). */
+    --Grey-Mail:            #5c5c5c;
+/*  "Pale Mail" is the inverted hover of Grey Mail. */
+    --Pale-Mail:            #a3a3a3;
+
+/*  "Homely Red" is the colour of the Home emoji (/icons/home.png). */
+    --Homely-Red:           #fc0404;
+/*  "Blue Toon" is the inverted hover of Homely Red. */
+    --Blue-Toon:            #03fbfb;
+
+/*  "Iain Brown Simpson" is the colour of the privacy emoji
+ *   (/icons/privacy.png) */
+    --Iain-Brown-Simpson:   #b44c04;
+/*  "Blue It" is the inverted hover of Iain Brown Simpson. */
+    --Blue-It:              #4bb3fb;
+
+/*  "I. B. Simpsgreen" is the colour of the copyright emoji
+ *   (/icons/copyright.png) */
+    --I-B-Simpsgreen:       #04c43c;
+/*  "Private Purple" is the inverted hover of I. B. Simpsgreen. */
+    --Private-Purple:       #fb3bc3;
+}
+
+
 html {
     color: var(--Indigo-Dye);
     background: var(--Isabelline);
@@ -142,7 +215,7 @@ header {
                      *  It's specifically targeted to set the hover
                      *  colour to the *opposite* of Indigo Dye, so that
                      *  when the invert filter applies, it correctly
-                     *  displays the hovered text as Indigo Dye.  
+                     *  displays the hovered text as Indigo Dye.
                      */
                         color: #ebc3ab;
                         filter: invert(100%) !important;

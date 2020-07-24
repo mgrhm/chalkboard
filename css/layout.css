@@ -91,14 +91,14 @@ header {
     font-variant-ligatures: none;
     background: var(--Isabelline);
     border-bottom: 3px solid var(--Orange-B-Simpson);
-    /*  This code is from Caramelised, and is used to pin the site header to
-     *  the top of the page when scrolling. */
+    /*  This code is from Caramelised, and is used to pin the site header
+     *  to the top of the page when scrolling. */
         width: 100% !important;
         position: fixed;
         z-index:  10;
         display:  flex;
-        align-items: center;                   /* Vertical alignment. */
-        justify-content: center;             /* Horizontal alignment. */
+        align-items: center;                    /* Vertical alignment. */
+        justify-content: center;              /* Horizontal alignment. */
         flex-wrap: wrap;
 }
     @media (prefers-color-scheme: dark) {
@@ -140,13 +140,11 @@ header {
                     header a.header-name:hover {
                     /*  The 'color' variable here is a little hacky.
                      *  It's specifically targeted to set the hover
-                     *  colour to the *opposite* of Onyx, so that when
-                     *  the invert filter applies, it correctly displays
-                     *  the hovered text as Onyx.  This is only needed
-                     *  in Dark Mode because Isabelline inverts into a
-                     *  very near-black colour and stands out.
+                     *  colour to the *opposite* of Indigo Dye, so that
+                     *  when the invert filter applies, it correctly
+                     *  displays the hovered text as Indigo Dye.  
                      */
-                        color: #cecacc;
+                        color: #ebc3ab;
                         filter: invert(100%) !important;
                     }
                     header a.header-name:hover img {
@@ -550,28 +548,104 @@ footer {
 
 
 /*
+ *      ██╗      █████╗ ███╗   ██╗██████╗ ██╗███╗   ██╗ ██████╗
+ *      ██║     ██╔══██╗████╗  ██║██╔══██╗██║████╗  ██║██╔════╝
+ *      ██║     ███████║██╔██╗ ██║██║  ██║██║██╔██╗ ██║██║  ███╗
+ *      ██║     ██╔══██║██║╚██╗██║██║  ██║██║██║╚██╗██║██║   ██║
+ *      ███████╗██║  ██║██║ ╚████║██████╔╝██║██║ ╚████║╚██████╔╝
+ *      ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
+ *
+ *      Styles for the Landing page.  I cheated and reused these
+ *     for the About page too, but didn't rename the CSS classes.
+ */
+
+.landing {
+    font-size:    18pt;
+    line-height: 170%;
+    max-width:    64ch;
+}
+
+.landing code {
+    background: none;
+}
+
+.landing img {
+    float:  left;
+    border: 12px solid var(--Orange-B-Simpson);
+    margin-right: 32pt;
+}
+    @media (prefers-color-scheme: dark) {
+        .landing img {
+            border: 12px solid var(--Iain-Blue-Simpson);
+            opacity: 0.75;          /* Softens the image in dark mode. */
+        }
+    }
+
+.landing h3 {
+    font-size:    32pt;
+    line-height:  42pt;
+    max-width:    34ch;
+}
+    .landing h3 em {
+        font-family: "Permanent Marker",
+                      cursive;
+    }
+
+.landing h4 {
+    font-weight:  700;
+    font-size:     18pt;
+    line-height:   24pt;
+    max-width:     64ch;
+}
+
+.landing ul {
+    margin-top:    24pt;
+    margin-bottom: 48pt;
+    float:         left;
+}
+
+.landing li {
+    list-style:     none;
+    padding-left:   24pt;
+    padding-bottom: 24pt;
+    max-width:      52ch;
+    clear:          both;
+}
+    .landing li img {
+    /*  This is needed to remove the border that's set above to add the
+     *  border to the headshot.
+     */
+        border: none;
+    }
+        @media (prefers-color-scheme: dark) {
+            .landing li img {
+                filter: invert(100%) !important;
+                opacity: 1.0;
+            }
+        }
+
+
+/*
  *    ██╗  ██╗ ██████╗ ██╗  ██╗    ██████╗  █████╗  ██████╗ ███████╗
  *    ██║  ██║██╔═████╗██║  ██║    ██╔══██╗██╔══██╗██╔════╝ ██╔════╝
  *    ███████║██║██╔██║███████║    ██████╔╝███████║██║  ███╗█████╗
  *    ╚════██║████╔╝██║╚════██║    ██╔═══╝ ██╔══██║██║   ██║██╔══╝
  *         ██║╚██████╔╝     ██║    ██║     ██║  ██║╚██████╔╝███████╗
  *         ╚═╝ ╚═════╝      ╚═╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
+ *
  *     Styles for the 404 page.  You can't name a CSS class using
  *     numbers, so I settled for the more descriptive "i-am-lost".
  */
 
 .i-am-lost {
-    font-family: "Poppins",
-                 "Century Gothic",
-                  sans-serif;
     font-size:    24pt;
     line-height: 170%;
     max-width:    40ch;
 }
     .i-am-lost em {
-        font-size: 32pt;
         font-family: "Permanent Marker",
                       cursive;
+        font-size: 32pt;
     }
 
 .i-am-lost img {
@@ -591,12 +665,12 @@ footer {
     max-width:     52ch;
     margin-top:    24pt;
     margin-bottom: 48pt;
-    float: left;
+    float:         left;
 }
     .i-am-lost li {
-        list-style: none;
+        list-style:     none;
         padding-left:   24pt;
         padding-bottom: 24pt;
         max-width:      52ch;
-        clear: both;
+        clear:          both;
     }

@@ -382,7 +382,7 @@ blockquote {
     font-style:    italic;
     padding-left:  24pt;
     padding-right: 24pt;
-    opacity:       0.75;
+    opacity:       0.85;
     border-left: 12px solid var(--Orange-B-Simpson);
 }
     @media (prefers-color-scheme: dark) {

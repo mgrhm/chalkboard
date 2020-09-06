@@ -6,9 +6,11 @@ draft: false
 ---
 
 The website `ibsimpson.com` does not intentionally collect or store any
-data about its visitors.  All assets used on this site – text, images,
-fonts, and any other files – are hosted by and served from
-`ibsimpson.com`.
+data about its visitors.  It does not use cookies, advertising, or
+tracking codes.
+
+All assets used on this site – text, images, fonts, and any other files
+– are hosted by and served from `ibsimpson.com`.
 
 ### Affiliate Links
 

@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-lastmod: 2020-07-20
+lastmod: 2020-09-06
 slug: privacy
 draft: false
 ---

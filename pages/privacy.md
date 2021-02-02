@@ -1,16 +1,16 @@
 ---
 title: "Privacy Policy"
-lastmod: 2020-09-06
+lastmod: 2021-02-02
 slug: privacy
 draft: false
 ---
 
-The website `ibsimpson.com` does not intentionally collect or store any
-data about its visitors.  It does not use cookies, advertising, or
+The website `iainteaches.com` does not intentionally collect or store
+any data about its visitors.  It does not use cookies, advertising, or
 tracking codes.
 
 All assets used on this site – text, images, fonts, and any other files
-– are hosted by and served from `ibsimpson.com`.
+– are hosted by and served from `iainteaches.com`.
 
 ### Affiliate Links
 
@@ -18,7 +18,7 @@ This site takes part in the Amazon UK Affiliates scheme.  This means
 that I may make a small commission from any sales of Amazon goods linked
 to on this site.  There is no cost to you for using the links I provide.
 
-Following any links to Amazon will take you away from `ibsimpson.com`.
+Following any links to Amazon will take you away from `iainteaches.com`.
 Amazon may use cookies or other means of verifying your purchase.  This
 is covered by their appropriate privacy policy.
 

@@ -1,6 +1,6 @@
 ---
 title: "Font Licensing Information"
-lastmod: 2020-07-20
+lastmod: 2021-02-02
 draft: false
 slug: font-licenses
 ---
@@ -16,7 +16,7 @@ copyright](/copyright).
 
 ### SIL Open Font License
 
-The following webfonts used on and served from `ibsimpson.com` are
+The following webfonts used on and served from `iainteaches.com` are
 licensed under the [SIL Open Font
 License](https://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web):
 

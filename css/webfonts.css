@@ -43,6 +43,7 @@
     font-family: 'Permanent Marker';
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     src: local('Permanent Marker Regular'),
          local('PermanentMarker-Regular'),
          url(/fonts/permanent-marker/400.woff2) format('woff2'),

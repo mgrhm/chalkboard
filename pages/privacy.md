@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-lastmod: 2021-02-02
+lastmod: 2021-02-22
 slug: privacy
 draft: false
 ---
@@ -14,13 +14,16 @@ All assets used on this site – text, images, fonts, and any other files
 
 ### Affiliate Links
 
-This site takes part in the Amazon UK Affiliates scheme.  This means
-that I may make a small commission from any sales of Amazon goods linked
-to on this site.  There is no cost to you for using the links I provide.
+This site takes part in the [Amazon's UK Affiliates
+program](https://affiliate-program.amazon.co.uk/).  This means that I
+may make a small commission if you buy any of the Amazon items I link to
+on this site.  There is no cost to you for using the links I provide,
+and any money I make is used to pay the costs of running this site.
 
 Following any links to Amazon will take you away from `iainteaches.com`.
 Amazon may use cookies or other means of verifying your purchase.  This
-is covered by their appropriate privacy policy.
+is covered by [Amazon's privacy
+policy](https://www.amazon.co.uk/gp/help/customer/display.html?nodeId=GX7NJQ4ZB8MHFRNJ).
 
 ### Comments
 
@@ -35,6 +38,6 @@ don't ask for email addresses when posting a comment.
 ### Search
 
 The search function on this site is provided by [Duck Duck
-Go](https://duckduckgo.com/).  Duck Duck Go state that their search
-“does not collect or share personal information”.  You can read their
-full policy [on their site](https://duckduckgo.com/privacy).
+Go](https://duckduckgo.com/).  Duck Duck Go states that their search
+"does not collect or share personal information".  You can read their
+full privacy policy [on their site](https://duckduckgo.com/privacy).

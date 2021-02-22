@@ -1,36 +1,39 @@
 ---
 title: "Copyright"
-lastmod: 2021-02-02
+lastmod: 2021-02-22
 slug: copyright
 draft: false
 ---
 
-The contents of `iainteaches.com` are copyright © 2019–2020 Iain B.
-Simpson.  All rights reserved.
+The contents of `iainteaches.com` are copyright © 2019–2021 Iain B.
+Simpson.  All rights reserved, except where noted below.
 
 I hope you find the contents of this site interesting and useful.  I
-actively encourage you link to, reblog, share, or quote anything on this
-site.
+actively encourage you share, link to, reblog, and quote anything on
+this site.
 
-The [Resources](/resources) made available on this site are free for
-personal, educational, and in-classroom use.  If you share or modify
-them online, you must give credit.  Your credit should be in the
+The [Resources](/resources) on this site are made available under the
+[Open License for Educational Materials](https://olfem.org/license/).
+They are free for personal, educational, and in-classroom use.  You do
+not need to give credit when using them in this way.
+
+If you share the originals or your modified versions, you must give
+credit in accordance with their License.  Your credit should be in the
 following format:
 
-    Based on original Resources from www.iainteaches.com
+    Based on material from www.iainteaches.com released under the Open
+    License for Educational Materials (www.olfem.org)
 
 The Resources on this site are _not_ free for Commercial use.  If you
-would like to publish these in another format, and plan on charging for
-them, you must contact me [by
-email](mailto:hello@iainteaches.com?subject=Republication of Resources)
-to discuss before you do this.
+would like to publish and plan on charging for them, you must contact me
+[by email](mailto:hello@iainteaches.com?subject="Republication of
+Resources") to discuss this before you do it.
 
 ### Font Licensing
 
-The fonts used on this site are used fonts are used in accordance with
-their published licenses which cover _only the fonts themselves_.  Their
-licenses do not extend to include any of the contents of the website
-itself presented using those fonts.
+The fonts on this site are used in accordance with their licenses.
+Their licenses cover _only the fonts themselves_ and do not extend to
+the contents of the website or materials on it.
 
 Information on the fonts used on this website, and their licenses, can
 be found on the [font licensing page](/font-licenses).
